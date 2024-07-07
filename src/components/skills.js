@@ -5,6 +5,7 @@ import ProgressBar from "./progressBar";
 import dispensary from "../image/dispensary.png";
 import ticket from "../image/ticket.png";
 import travel from "../image/travel.png";
+import room from "../image/room.png";
 export default function Skills() {
   const skill1 = "HTML";
   const skill2 = "CSS";
@@ -70,7 +71,23 @@ export default function Skills() {
               </a>
             </div>
           </div>
-          <div className="project" data-aos='zoom-in' data-aos-delay="500">
+
+            <div className="project" data-aos='zoom-in' data-aos-delay="500">
+            <img src={room} className="project-img" />
+            <h2 className="project-name">Rent The Room</h2>
+            <p className="project-details">
+              Description: This project allows the user to view rooms around there surrounding for renting.
+              They can search the rooms by address or there budget.
+            </p>
+
+            <div className="button" >
+              <a className="link"href="https://rentmyroom-3h7k.onrender.com/" target="_blank">
+                View Project
+              </a>
+            </div>
+          </div>
+  
+          <div className="project" data-aos='zoom-in' data-aos-delay="1000">
             <img src={ticket} className="project-img" />
             <h2 className="project-name">Tickets Available</h2>
             <p className="project-details">
@@ -84,7 +101,7 @@ export default function Skills() {
               </a>
             </div>
           </div>
-          <div className="project" data-aos='zoom-in' data-aos-delay="1000">
+          <div className="project" data-aos='zoom-in' data-aos-delay="1500">
             <img src={travel} className="project-img" />
             <h2 className="project-name">Travel management system</h2>
             <p className="project-details">
