@@ -12,12 +12,14 @@ export default function Skills() {
   const skill4 = "REACT";
   const skill5 = "Nodejs";
   const skill6 = "Mongodb";
+  const skill7 = "Machine_Learning"
   const progressValueHTML = 70;
   const progressValueCSS = 60;
   const progressValueJS = 40;
   const progressValueREACT = 40;
   const progressValueNodejs = 55;
   const progressValueMongodb = 40;
+  const progressValueMachine_Learning=60;
   
   useEffect(() => {
     AOS.init({
@@ -44,6 +46,7 @@ export default function Skills() {
           <ProgressBar value={progressValueREACT} skillName={skill4} />
           <ProgressBar value={progressValueNodejs} skillName={skill5} />
           <ProgressBar value={progressValueMongodb} skillName={skill6} />
+          <ProgressBar value={progressValueMachine_Learning} skillName={skill7} />
         </div>
       </div>
       <hr />
