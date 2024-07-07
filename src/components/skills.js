@@ -81,7 +81,7 @@ export default function Skills() {
             </p>
 
             <div className="button" >
-              <a className="link"href="https://rentmyroom-3h7k.onrender.com/" target="_blank">
+              <a className="link"href="https://rentmyroom-3h7k.onrender.com" target="_blank">
                 View Project
               </a>
             </div>
